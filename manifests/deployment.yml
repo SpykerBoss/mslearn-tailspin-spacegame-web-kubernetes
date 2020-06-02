@@ -14,7 +14,11 @@ spec:
     spec:
       containers:
         - name: web
+<<<<<<< HEAD
           image: tailspinspacegame27377.azurecr.io/web
+=======
+          image: tailspinspacegameprod.azurecr.io/web
+>>>>>>> parent of e08ba3c... Update deployment manifest
           ports:
           - containerPort: 80
 ---
@@ -34,6 +38,10 @@ spec:
     spec:
       containers:
         - name: leaderboard
+<<<<<<< HEAD
           image: tailspinspacegame27377.azurecr.io/leaderboard
+=======
+          image: tailspinspacegameprod.azurecr.io/leaderboard
+>>>>>>> parent of e08ba3c... Update deployment manifest
           ports:
           - containerPort: 80
